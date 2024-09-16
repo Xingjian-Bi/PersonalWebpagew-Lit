@@ -2,10 +2,7 @@ import "./Testimonials.css";
 
 export default function Testimonials() {
   return (
-    <div
-      className="testimonials"
-      id="testimonials"
-    >
+    <div className="testimonials" id="testimonials">
       <div className="testimonials-title">
         <h1>Testimonials</h1>
       </div>

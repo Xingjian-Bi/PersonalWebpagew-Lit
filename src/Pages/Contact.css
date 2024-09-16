@@ -1,70 +1,68 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .rows {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    border:2px solid rgb(133, 133, 244);
-    border-radius: 6px;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 2px solid rgb(133, 133, 244);
+  border-radius: 6px;
+  padding: 2rem;
 }
 
 .row {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    gap: 2rem;
-    padding-bottom: 2rem;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  gap: 2rem;
+  padding-bottom: 2rem;
 }
 .row label {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .row input {
-    border-color:azure;
-    border-radius: 8px;
-    width: 150px;
-    height: 30px;
+  border-color: azure;
+  border-radius: 8px;
+  width: 150px;
+  height: 30px;
 }
 
 .submitBtn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .btn-submit {
-    width: 150px;
-    height: 50px;
-    background-color: azure;
-    border-radius: 6px;
-    margin-top: 2rem;
+  width: 150px;
+  height: 50px;
+  background-color: azure;
+  border-radius: 6px;
+  margin-top: 2rem;
 }
 
 @media (max-width: 932px) {
-        .contact {
-            display: flex;
+  .contact {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-            width: 100%;
-        }
-    
-    .row {
-        display: flex;
-        flex-direction: column;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        gap: 1rem;
-        padding-bottom: 1rem;
-    }
-    .rows {
-        border:2px solid rgb(133, 133, 244);
-        border-radius: 6px;
-    }
+    width: 100%;
+  }
 
+  .row {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  .rows {
+    border: 2px solid rgb(133, 133, 244);
+    border-radius: 6px;
+  }
 }
-
